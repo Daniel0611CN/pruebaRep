@@ -90,4 +90,9 @@ public class Date {
   public void Dani() {
     System.out.println("Method added by the owner");
   }
+  public Date(int tag, int monat, int jahr) { 
+	  this.day = tag; 
+	  this.month = monat; 
+	  this.year = jahr; 
+  }
 }
